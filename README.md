@@ -1,3 +1,19 @@
+
+# How to run this Project on your local machine
+
+1. Pull the git repository into your local machine
+2. Install latest gradle version
+3. go to the project directory where the `gradle.build` file is
+4. run `./gradlew build ; ./gradlew run` command. This should start your server on port 8080.
+5. go to localhost:8080 to see the static page.
+
+## Some specifics about the server:
+1. The server is binded to port 8080
+2. The concurrent request handling capacity depends on the type of machine that the server is run on. In this version it is limited to 4000 concurrent threads. 
+3. The default directory is www which can be seen in the file directory
+4. All the specifics mentioned above can be modified in the `ServerConfig.java` file
+
+
 HTTP Server from Scratch
 
 Features that have been implemented
