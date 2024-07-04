@@ -1,5 +1,6 @@
+# **HTTP Server from Scratch**
 
-# How to run this Project on your local machine
+##How to run this Project on your local machine
 
 1. Pull the git repository into your local machine
 2. Install latest gradle version
@@ -14,9 +15,9 @@
 4. All the specifics mentioned above can be modified in the `ServerConfig.java` file
 
 
-HTTP Server from Scratch
 
-Features that have been implemented
+
+### Features that have been implemented
 1. Request Handling:
 - Ability to receive and process HTTP requests (GET, POST, etc.)
 - Parse incoming request headers and body
@@ -32,7 +33,7 @@ Features that have been implemented
 - Record access logs and error logs
 - Configurable log formats and locations
 
-Proposed Features:
+### Proposed Features:
 
 1. Request Handling:
 - Route requests to appropriate handlers based on URL paths
