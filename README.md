@@ -10,7 +10,7 @@
 
 ## Some specifics about the server:
 1. The server is binded to port 8080
-2. The concurrent request handling capacity depends on the type of machine that the server is run on. In this version it is limited to 4000 concurrent threads. 
+2. The concurrent request handling capacity is bound by the processor of the machine the application is run on.  
 3. The default directory is www which can be seen in the file directory
 4. All the specifics mentioned above can be modified in the `ServerConfig.java` file
 
